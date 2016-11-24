@@ -269,11 +269,11 @@ body {
 
 /* ---- Makes the project picture dimmer and adds "GO TO SITE" text when hover ---- */
 .p-img-1 {
-	background-image: url("images/Banner.jpg");
+	background-image: url("images/banner.jpg");
 }
 
 .p-img-1:hover {
-	background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("images/Banner.jpg");
+	background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("images/banner.jpg");
 }
 
 .p-img-2 {
