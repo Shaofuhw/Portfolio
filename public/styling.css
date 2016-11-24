@@ -128,9 +128,8 @@ body {
 	.banner-text {
 		text-indent: 20px;
 		text-align: left;
-		margin: 80px 15% 120px;
+		margin: 80px 20% 120px;
 		border-left: solid;
-		border-size: 2px;
 	}
 }
 
@@ -179,10 +178,6 @@ body {
 	box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.3);
 }
 
-.skill-box-active {
-	box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.3);
-}
-
 .skill-box p {
 	margin: 5px 15px;
 }
@@ -219,13 +214,157 @@ body {
 .projects {
 	background: #F0F0F0;
 	text-align: center;
-	padding: 40px;
+	padding: 0 2% 60px;
+	font-size: 18px;
+}
+
+.projects-title {
+	margin: 40px 0 10px;
+	text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* HR under title */
+.projects-title+hr{
+	border: 1px solid;
+	width: 250px;
+	margin: 0 auto;
 }
 
 .orange {
 	color: #FF9933;
 }
 
+.blue {
+	color: #1B95DC;
+}
+
+/* Styling of the project's boxes */
+.project-box {
+	margin-top: 30px;
+	border: solid;
+	border-width: 1px;
+	box-shadow: 7px 7px 5px 0 rgba(0, 0, 0, 0.3);
+	padding-bottom: 15px;
+}
+
+.project-box > hr {
+	border: 1px solid;
+	width: 80%;
+	border-color: #898989;
+	margin: 10px auto;
+}
+
+.project-box > p {
+	margin-bottom: 0px;
+	padding: 0 30px;
+}
+
+/* Put the images as background to be able to crop them */
+.project-img {
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 250px;
+}
+
+/* ---- Makes the project picture dimmer and adds "GO TO SITE" text when hover ---- */
+.p-img-1 {
+	background-image: url("images/Banner.jpg");
+}
+
+.p-img-1:hover {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("images/Banner.jpg");
+}
+
+.p-img-2 {
+	background-image: url("images/drone.jpg");
+}
+
+.p-img-2:hover {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("images/drone.jpg");
+}
+
+.p-img-3 {
+	background-image: url("images/collision.jpg");
+}
+
+.p-img-3:hover {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("images/collision.jpg");
+}
+
+.project-img::after {
+	content: "View";
+	color: white;
+	line-height: 250px;
+	font-size: 50px;
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+.project-img:hover::after {
+	opacity: 1;
+}
+
+.box-active {
+	box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* ---- Contact Styling ---- */
+.contact {
+	background: rgb(255, 153, 51);
+	padding: 5%;
+	text-align: center;
+	font-size: 24px;
+}
+
+@media (min-width: 768px) {
+	.contact {
+		text-align: left;
+	}
+}
+
+.contact-box {
+	border: 3px solid;
+	background: white;
+	box-shadow: 15px 15px 20px 5px rgba(0, 0, 0, 0.3);
+	padding-bottom: 30px;
+}
+
+.contact-box .img-responsive {
+	max-height: 300px;
+	margin-top: 0px;
+}
+
+@media (max-width: 1130px) {
+	.contact-box .img-responsive {
+		margin-top: 
+	}
+}
+
+.contact-title {
+	margin: 40px 0 0;
+	text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 768px) {
+	.contact-title {
+		margin-left: 25%;
+		margin-bottom: 20px;
+	}
+}
+
+.contact-icon {
+	width: 25px;
+}
+
+.scrollToTop{
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	position:fixed;
+	bottom: -50px;
+	right: -15px;
+}
 
 /* ---- Footer Styling ---- */
 .footer {
