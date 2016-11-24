@@ -20,7 +20,7 @@ $(document).ready(function(){
 	});
 
 	$(".p-img-2").on("click", function(){
-		window.open("https://github.com/Shaofuhw/DroneWeb", '_blank');
+		window.open("https://droneweb.herokuapp.com/", '_blank');
 	});
 
 	$(".p-img-3").on("click", function(){
