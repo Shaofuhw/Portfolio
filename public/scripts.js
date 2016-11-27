@@ -26,7 +26,20 @@ $(document).ready(function(){
 	$(".p-img-3").on("click", function(){
 		window.open("https://www.youtube.com/watch?v=kmpxkKq3zNA", '_blank');
 	});
-	
+
+	$(".snake").on("click", function(){
+		if($(this).hasClass("p-img-4-1")){
+			$(this).addClass("p-img-4-2");
+			$(this).removeClass("p-img-4-1");
+		} else if($(this).hasClass("p-img-4-2")){
+			$(this).addClass("p-img-4-3");
+			$(this).removeClass("p-img-4-2");
+		} else if($(this).hasClass("p-img-4-3")){
+			$(this).addClass("p-img-4-1");
+			$(this).removeClass("p-img-4-3");	
+		};
+	});
+
 	/* Smooth scrol of nav hrefs */
 	$(".nav a").on("click", function(){
 		$('html, body').animate({
