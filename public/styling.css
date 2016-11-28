@@ -320,6 +320,14 @@ body {
 	background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("images/snake3.jpg");
 }
 
+.p-img-5 {
+	background-image: url("images/robot.jpg");
+}
+
+.p-img-5:hover {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("images/robot.jpg");
+}
+
 .project-img::after {
 	content: "View";
 	color: white;
