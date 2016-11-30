@@ -44,6 +44,9 @@ $(document).ready(function(){
 		window.open("https://youtu.be/Ye0hFc3_5qw", '_blank');
 	});
 
+	$(".p-img-6").on("click", function(){
+		window.open("https://github.com/Shaofuhw/MIPS-FPGA", '_blank');
+	});
 	/* Smooth scrol of nav hrefs */
 	$(".nav a").on("click", function(){
 		$('html, body').animate({

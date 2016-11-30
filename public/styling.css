@@ -328,6 +328,14 @@ body {
 	background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("images/robot.jpg");
 }
 
+.p-img-6 {
+	background-image: url("images/fpga.jpg");
+}
+
+.p-img-6:hover {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("images/fpga.jpg");
+}
+
 .project-img::after {
 	content: "View";
 	color: white;
