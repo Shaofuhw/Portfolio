@@ -18,13 +18,13 @@ body {
 	min-height: 100px;
 	border: 0px;
 	background: rgba(0, 0, 0, 0.2);
-	line-height: 110px;
 }
 
 /* Links of the navbar */
 .navbar-inverse .navbar-nav>li>a {
     color: #F3F3F3;
     font-size: 20px;
+    line-height: 110px;
 }
 
 @media (max-width: 768px) {
@@ -101,6 +101,34 @@ body {
 	-webkit-transform: translateX(0px);
 	-moz-transform: translateX(0px);
 	transform: translateX(0px);
+}
+
+/* Languages dropdown styling */
+.dropdown-menu {
+	background-color: rgba(0, 0, 0, 0.3);
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.dropdown-menu>li>a {
+	color: white!important;
+}
+
+#languages {
+	background-color: transparent;
+}
+
+/* Change the collapsed navbar styling */
+.navbar-collapse {
+    background-color: rgba(0,0,0,0.3);
+    padding-left: 40px;
+    border-bottom: solid 1px;
+}
+
+.navbar-collapse .dropdown-menu>li>a{
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-left: -20px;
 }
 
 /* ---- Banner Styling ---- */
