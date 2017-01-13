@@ -47,6 +47,10 @@ $(document).ready(function(){
 	$(".p-img-6").on("click", function(){
 		window.open("https://github.com/Shaofuhw/MIPS-FPGA", '_blank');
 	});
+
+	$(".p-img-7").on("click", function(){
+		window.open("http://caelikers.herokuapp.com/", '_blank');
+	});
 	/* Smooth scrol of nav hrefs */
 	$(".nav a").on("click", function(){
 		$('html, body').animate({

@@ -370,6 +370,14 @@ body {
 	background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("images/fpga.jpg");
 }
 
+.p-img-7 {
+	background-image: url("images/caelike.png");
+}
+
+.p-img-7:hover {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("images/caelike.png");
+}
+
 .project-img::after {
 	content: "View";
 	color: white;
@@ -450,8 +458,18 @@ body {
 /* ---- Footer Styling ---- */
 .footer {
 	background-color: black;
-	height: 120px;
-	line-height: 20px;
 	color: white;
 	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.footer img {
+	max-width: 40px;
+}
+
+.footer-links {
+	color: white;
+	font-size: 1.1em;
+	margin-left: 10px;
+	margin-right: 10px;
 }
