@@ -37,7 +37,7 @@ $(document).ready(function(){
 		} else if($(this).hasClass("p-img-4-3")){
 			$(this).addClass("p-img-4-1");
 			$(this).removeClass("p-img-4-3");	
-		};
+		}
 	});
 
 	$(".p-img-5").on("click", function(){
