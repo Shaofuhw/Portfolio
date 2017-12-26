@@ -235,6 +235,14 @@ body {
 	font-size: 16px;
 }
 
+.experience img {
+	max-width: 150px;
+}
+
+.experience-description {
+	padding-left: 30px;
+}
+
 /* ---- Skills Boxes Styling ---- */
 .skills {
 	margin: 0 15px 40px;
