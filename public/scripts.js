@@ -52,7 +52,7 @@ $(document).ready(function(){
 		window.open("http://caelikers.herokuapp.com/", '_blank');
 	});
 	/* Smooth scrol of nav hrefs */
-	$(".nav a").on("click", function(){
+	$(".nav a, .footer-links").on("click", function(){
 		$('html, body').animate({
 	        scrollTop: $( $.attr(this, 'href') ).offset().top
 	    }, 700);
