@@ -16,7 +16,7 @@ body {
 /* Navbar */
 .navbar-inverse {
 	min-height: 100px;
-	border: 0px;
+	border: 0;
 	background: rgba(0, 0, 0, 0.2);
 }
 
@@ -37,7 +37,7 @@ body {
 /* Collapsed toggle styling */ 
 .navbar-toggle {
 	padding-bottom: 8px;
-	border: 0px;
+	border: 0;
 }
 
 .navbar-toggle .icon-bar {
@@ -142,10 +142,9 @@ body {
 	background-color: rgb(255, 153, 51);
 	color: white;
 	font-size: 18px;
-	text-indent: 0px;
+	text-indent: 0;
 	padding: 10px 15px;
-	border-radius: 0px;
-	margin-bottom: 15px;
+	border-radius: 0;
 	margin: 0 0 15px 20px;
 }
 
@@ -183,6 +182,21 @@ body {
 	text-align: center;
 }
 
+.align-center {
+	margin: 0 auto;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+/* ---- Experience Styling ---- */
+.experience {
+	background-color: #F0F0F0;
+	padding: 0 2% 60px;
+	font-size: 16px;
+}
+
 /* ---- Skills Boxes Styling ---- */
 .skills {
 	margin: 0 15px 40px;
@@ -207,7 +221,7 @@ body {
 	border-style: solid;
 	padding: 20px 0 0;
 	font-size: 20px;
-	box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 7px 7px 5px 0 rgba(0, 0, 0, 0.3);
 	margin-bottom: 20px;
 	transition: box-shadow 0.3s ease;
 }
@@ -227,7 +241,7 @@ body {
 /* Style the button that expand the skill boxes */
 .sb-btn-toggle {
 	background-color: rgba(0, 0, 0, 0.05);
-	border-radius: 0px;
+	border-radius: 0;
 	margin-top: 20px;
 	outline: none;
 	width: 100%;
@@ -242,7 +256,7 @@ body {
 /* Skill boxes text styling */
 .skill-box .sb-text {
 	text-align: left;
-	margin: 0px;
+	margin: 0;
 	padding: 15px;
 	display: none;
 	background-color: rgba(0, 0, 0, 0.05);
@@ -279,21 +293,19 @@ body {
 /* Styling of the project's boxes */
 .project-box {
 	margin-top: 30px;
-	border: solid;
-	border-width: 1px;
+	border: 1px solid;
 	box-shadow: 7px 7px 5px 0 rgba(0, 0, 0, 0.3);
 	padding-bottom: 15px;
 }
 
 .project-box > hr {
-	border: 1px solid;
+	border: 1px solid #898989;
 	width: 80%;
-	border-color: #898989;
 	margin: 10px auto;
 }
 
 .project-box > p {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 	padding: 0 30px;
 }
 
@@ -422,13 +434,7 @@ body {
 
 .contact-box .img-responsive {
 	max-height: 300px;
-	margin-top: 0px;
-}
-
-@media (max-width: 1130px) {
-	.contact-box .img-responsive {
-		margin-top: 
-	}
+	margin-top: 0;
 }
 
 .contact-title {
