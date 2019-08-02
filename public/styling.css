@@ -239,6 +239,10 @@ body {
 	max-width: 150px;
 }
 
+.experience img.deloitte {
+	margin-top: 1em;
+}
+
 .experience-description {
 	padding-left: 30px;
 }
